@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="com.ahs.testcases.LoginPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.ahs.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->

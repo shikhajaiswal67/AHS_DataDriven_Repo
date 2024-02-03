@@ -1,0 +1,76 @@
+1.......
+
+Framework structure is present in png
+create all the package structure
+update pom.xml
+
+==========
+2......
+
+create config.properties file
+create base class ---- read config file,create launch browser method,
+
+===========
+3......
+
+IMPLIMENT LOG4J---
+Add dependency of log4j in pom.xml file
+create log4j.xml-- copy it from google
+create log.java file - write all the methods here
+Initialise it in base class
+Call the log methods in testcases
+
+===========
+4.....
+create actionUtility class- this extends baseclass
+create login page pom class - extends base class
+create login page test class---extends baseclass ,run
+
+===================
+5......
+IMPLIMENT DATADRIVEN - DATAPROVIDER
+add excel library to utility package
+create a folder and create testdata.xlxs in that 
+create package of dataprovider and add dataprovider class
+create object of excelLibrary class-- to obtain connection to excellibrary
+in loginpage class provide dataprivername in @test
+
+===========================
+6......
+Run testcases from TestNG.xml
+right click on project and convert to testng- it will create testng.xml file
+RUN testng.xml file
+
+SOME PENDING
+================================
+
+7............
+EXTEND REPORT
+create/add extend-config.xml file -- change document title as u project name
+create/add extend manager class in utility package---to create the object of extendHTML Reporter and load extend-config.xml
+create a extendReport folder to store html file in test-output  and add the path in extendmanager class
+configure setExtend and endReport methods from extendmanagerclass to baseclass in @before suite and @aftersuite
+
+Add/create screenhot method in action class or Base class.
+To attach the screenhot to extend Report-- use listner
+=================================
+8...............
+LISTNER
+
+
+
+==================================
+9......
+push to github
+Login to github
+create new repo- AHS_DataDriven_Repo
+Copy link of repo
+In search field of eclipse type git repository-git repo popup will appear
+Create local repo-click on create new git repo icon
+Now push changes locally than to github
+Right click on project-Team-Share Project-choose local repo -finish
+
+
+
+
+
