@@ -63,13 +63,16 @@ LISTNER
 9......
 push to github
 Login to github
+shikhajaiswal4466@gmail.com
+Shikhabangalore678
+
 create new repo- AHS_DataDriven_Repo
 Copy link of repo
 In search field of eclipse type git repository-git repo popup will appear
 Create local repo-click on create new git repo icon
 Now push changes locally than to github
-Right click on project-Team-Share Project-choose local repo -finish
-
+Right click on project-Team-Share Project-choose local repo -finish- Now project is present in local repo
+Now push changes to git repo-rightclick on project-team-commit-click on + wrote comment-select commit and push
 
 
 
